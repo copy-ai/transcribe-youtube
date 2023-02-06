@@ -1,1 +1,1 @@
-web: cd copyai/copyai && gunicorn copyai.wsgi --timeout 600
+web: gunicorn copyai.wsgi --timeout 600
