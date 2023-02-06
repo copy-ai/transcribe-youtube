@@ -5,6 +5,7 @@ from youtube_transcript_api import YouTubeTranscriptApi
 @api_view(['POST'])
 def orchestrator(request):
     url = 'https://www.youtube.com/watch?v=Kjt_EDgFlkk'
+    print("running---------------")
     #url = request.data['link']
     code_id = url.rsplit("=")[-1]
 
