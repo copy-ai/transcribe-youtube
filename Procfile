@@ -1,1 +1,1 @@
-web: gunicorn copyai.wsgi --timeout 600
+web: python manage.py runserver 0.0.0.0:\$PORT
