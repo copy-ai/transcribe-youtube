@@ -22,9 +22,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-imw!py4#p&56rlp=y8shv3+nuttlcgux#31hp1s!cpnus7zsl&'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['transcribe-youtube.herokuapp.com']
+ALLOWED_HOSTS = ['copy-ai-yt-transcriber-8e86fae0e511.herokuapp.com']
 
 
 # Application definition
