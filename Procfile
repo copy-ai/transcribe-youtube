@@ -1,1 +1,1 @@
-web: cd copyai && python manage.py runserver 0.0.0.0:\$PORT
+web: cd copyai && python manage.py runserver 0.0.0.0:$PORT
