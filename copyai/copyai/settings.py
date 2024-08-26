@@ -21,10 +21,14 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'django-insecure-imw!py4#p&56rlp=y8shv3+nuttlcgux#31hp1s!cpnus7zsl&'
 
-# SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
 
-ALLOWED_HOSTS = ['copy-ai-yt-transcriber-8e86fae0e511.herokuapp.com']
+# PRODUCTION SETTINGS -- CAN DEPLOY THESE TEMPORARILY TO DEBUG BUT SWAP BACK ONCE FIXED
+# DEBUG = False
+# ALLOWED_HOSTS = ['copy-ai-yt-transcriber-8e86fae0e511.herokuapp.com']
+
+# DEBUG SETTINGS -- FOR LOCAL AND TROUBLESHOOTING
+DEBUG = True
+ALLOWED_HOSTS = ['copy-ai-yt-transcriber-8e86fae0e511.herokuapp.com', 'localhost']
 
 
 # Application definition
